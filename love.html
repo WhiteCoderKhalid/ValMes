@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Valentine ❤️</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h2>💌 Send a Secret Valentine 💌</h2>
+        <textarea id="messageInput" placeholder="Write your secret message... (Emojis supported 😊❤️)"></textarea>
+        <button onclick="generateLink()">Generate Secret Link</button>
+        <div class="link-container" id="linkContainer">
+            <p>📎 Share this link:</p>
+            <input type="text" id="generatedLink" readonly>
+            <button onclick="copyLink()">Copy Link</button>
+        </div>
+    </div>
+
+    <div class="message-container" id="messageContainer"></div>
+
+    <script src="love.js" defer></script>
+</body>
+</html>
